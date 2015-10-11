@@ -1,5 +1,11 @@
 var preload = function(game) {};
 
+var music;
+
+var playSound = true;
+
+var playMusic = true;
+
 preload.prototype = {
 
   loadScripts: function () {
@@ -9,14 +15,21 @@ preload.prototype = {
     this.game.load.script('gamemenu', 'states/gamemenu.js');
     this.game.load.script('thegame', 'states/thegame.js');
     this.game.load.script('gameover', 'states/gameover.js');
+    this.game.load.script('credits', 'states/credits.js');
+    this.game.load.script('options', 'states/options.js');
   },
 
   loadSpriteSheets: function () {
     //
   },
+  loadBgm: function () {
+    this.game.load.audio('dangerous', 'assets/bgm/Dangerous.mp3');
+    this.game.load.audio('exit', 'assets/bgm/Exit the Premises.mp3');
+  },
 
   loadImages: function () {
     this.game.load.image('menu-bg', 'assets/images/menu-bg.jpg');
+    this.game.load.image('options-bg', 'assets/images/options-bg.jpg');
     this.game.load.image('gameover-bg', 'assets/images/gameover-bg.jpg');
   },
 
@@ -45,14 +58,22 @@ preload.prototype = {
     //this.loadSpriteSheets();
     this.loadImages();
     this.loadFonts();
+    this.loadBgm();
+
     game.add.tween(myLogo).to( { alpha: 1 }, 500, "Linear", true);
   },
   create: function() {
+
     var self = this;
+    music = game.add.audio('dangerous');
+    music.loop = true;
+    music.play();
     this.status.setText('Ready!');
     game.state.add("GameMenu",gameMenu);
     game.state.add("TheGame",theGame);
     game.state.add("GameOver",gameOver);
+    game.state.add("Credits",credits);
+    game.state.add("Options",options);
     setTimeout(function () {
       game.state.start("GameMenu");
     }, 100);

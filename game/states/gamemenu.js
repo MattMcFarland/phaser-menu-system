@@ -32,6 +32,14 @@ gameMenu.prototype = {
   },
 
   create: function () {
+    console.log(music);
+    if (music.name !== "dangerous" && playMusic) {
+      music.stop();
+      music = game.add.audio('dangerous');
+      music.loop = true;
+      music.play();
+    }
+    this.stage.disableVisibilityChange = true;
     game.add.sprite(0, 0, 'menu-bg');
     var titleStyle = { font: 'bold 60pt TheMinion', fill: '#FDFFB5', align: 'center'};
     var text = game.add.text(game.world.centerX, 100, "Game Title", titleStyle);
@@ -41,10 +49,10 @@ gameMenu.prototype = {
       this.game.state.start("TheGame");
     });
     this.addMenuOption('Options', function (e) {
-      console.log('Options clicked', e)
+      this.game.state.start("Options");
     });
     this.addMenuOption('Credits', function (e) {
-      console.log('Credits clicked', e)
+      this.game.state.start("Credits");
     });
 
   }
