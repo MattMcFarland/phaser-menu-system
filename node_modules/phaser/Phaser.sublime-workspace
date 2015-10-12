@@ -1,0 +1,1280 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"frame",
+				"frameBased"
+			],
+			[
+				"onPo",
+				"onPointerOut"
+			],
+			[
+				"with",
+				"withinGame"
+			],
+			[
+				"_onMSPointerU",
+				"_onMSPointerUpGlobal"
+			],
+			[
+				"MSPO",
+				"MSPointerUp"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"world",
+				"worldAlpha"
+			],
+			[
+				"cl",
+				"clown"
+			],
+			[
+				"thu",
+				"thumbnail"
+			],
+			[
+				"thumb",
+				"thumbContainer"
+			],
+			[
+				"ex",
+				"exists"
+			],
+			[
+				"rou",
+				"roundPx"
+			],
+			[
+				"pixi",
+				"pixiFilelist"
+			],
+			[
+				"p2",
+				"p2Filename"
+			],
+			[
+				"sur",
+				"surfers"
+			],
+			[
+				"LEFT",
+				"LEFT_BUTTON"
+			],
+			[
+				"process",
+				"processButtonsUp"
+			],
+			[
+				"processb",
+				"processButtonsDown"
+			],
+			[
+				"emit",
+				"emitterFront"
+			],
+			[
+				"emi",
+				"emitterFront"
+			],
+			[
+				"bub",
+				"bubble2"
+			],
+			[
+				"worm",
+				"worm1"
+			],
+			[
+				"game",
+				"gameOver"
+			],
+			[
+				"spr",
+				"sprites"
+			],
+			[
+				"scre",
+				"score"
+			],
+			[
+				"pla",
+				"placeStar"
+			],
+			[
+				"in",
+				"invulernable"
+			],
+			[
+				"laz",
+				"lazers"
+			],
+			[
+				"ca",
+				"cache"
+			],
+			[
+				"_wa",
+				"_watchList"
+			],
+			[
+				"de",
+				"decode"
+			],
+			[
+				"isO",
+				"isOver"
+			],
+			[
+				"rend",
+				"renderBody"
+			],
+			[
+				"lo",
+				"logo"
+			],
+			[
+				"exc",
+				"excludes"
+			],
+			[
+				"tre",
+				"true"
+			],
+			[
+				"exclu",
+				"exclude"
+			],
+			[
+				"tile",
+				"tilesprite"
+			],
+			[
+				"dra",
+				"dragonMesh"
+			],
+			[
+				"ar",
+				"param	@param"
+			],
+			[
+				"dragonTe",
+				"dragonTexture"
+			],
+			[
+				"setS",
+				"SetShouldLoop"
+			],
+			[
+				"Crea",
+				"CreatureManager"
+			],
+			[
+				"getPi",
+				"getPixiBaseTexture"
+			],
+			[
+				"Roun",
+				"RoundedRectangle"
+			],
+			[
+				"image",
+				"images"
+			],
+			[
+				"ren",
+				"renderable"
+			],
+			[
+				"from",
+				"fromCanvas"
+			],
+			[
+				"gener",
+				"generateTexture"
+			],
+			[
+				"targ",
+				"targetWidth"
+			],
+			[
+				"tar",
+				"targetHeight"
+			],
+			[
+				"tilesc",
+				"tileScaleOffset"
+			],
+			[
+				"can",
+				"canvas"
+			],
+			[
+				"shift",
+				"shiftKey"
+			],
+			[
+				"alt",
+				"altKey"
+			],
+			[
+				"De",
+				"DeviceButton"
+			],
+			[
+				"back",
+				"backButton"
+			],
+			[
+				"right",
+				"rightButton"
+			],
+			[
+				"eve",
+				"event"
+			],
+			[
+				"left",
+				"leftButton"
+			],
+			[
+				"MI",
+				"MIDDLE_BUTTON"
+			],
+			[
+				"midd",
+				"middleButton"
+			],
+			[
+				"righ",
+				"rightButton"
+			],
+			[
+				"oninpu",
+				"onInputDownHandler"
+			],
+			[
+				"audio",
+				"audioTag"
+			],
+			[
+				"ob",
+				"obj"
+			],
+			[
+				"sprite",
+				"spriteSheet"
+			],
+			[
+				"_c",
+				"_cache"
+			],
+			[
+				"TEX",
+				"TEXT"
+			],
+			[
+				"getSo",
+				"getSoundData"
+			],
+			[
+				"getT",
+				"getTextureFrame"
+			],
+			[
+				"getFr",
+				"getFrameByName"
+			],
+			[
+				"getfr",
+				"getFrameData"
+			],
+			[
+				"_cac",
+				"_cacheMap"
+			],
+			[
+				"BIT",
+				"BITMAPFONT"
+			],
+			[
+				"pro",
+				"property"
+			],
+			[
+				"spri",
+				"spritesheet"
+			],
+			[
+				"curr",
+				"currentFrame"
+			],
+			[
+				"_f",
+				"_frameIndex"
+			],
+			[
+				"cur",
+				"currentFrame"
+			],
+			[
+				"fla",
+				"flare_point"
+			],
+			[
+				"ne",
+				"nextAdd"
+			],
+			[
+				"force",
+				"forcePowerOfTwo"
+			],
+			[
+				"rela",
+				"relativePoint"
+			],
+			[
+				"appl",
+				"applyImpulse"
+			],
+			[
+				"box",
+				"boxMaterial"
+			],
+			[
+				"bod",
+				"bodyB"
+			],
+			[
+				"grou",
+				"group1"
+			],
+			[
+				"gro",
+				"group1"
+			],
+			[
+				"move",
+				"moveAll"
+			],
+			[
+				"cre",
+				"createGraphics"
+			],
+			[
+				"save",
+				"saveText"
+			],
+			[
+				"canv",
+				"canvasZoom"
+			],
+			[
+				"previ",
+				"previewSize"
+			],
+			[
+				"prev",
+				"previewSize"
+			],
+			[
+				"pre",
+				"previewSizeUp"
+			],
+			[
+				"sp",
+				"spriteWidth"
+			],
+			[
+				"resi",
+				"resizePreview"
+			],
+			[
+				"siz",
+				"sizeDown"
+			],
+			[
+				"col",
+				"colorIndex"
+			],
+			[
+				"spi",
+				"spriteHeight"
+			],
+			[
+				"pal",
+				"palette"
+			],
+			[
+				"createe",
+				"createEventListeners"
+			],
+			[
+				"crea",
+				"createPreview"
+			],
+			[
+				"_cat",
+				"_categoryPostsolveCallbackContext"
+			],
+			[
+				"_ca",
+				"_categoryPresolveCallbackContext"
+			],
+			[
+				"wind",
+				"windowsPhone"
+			],
+			[
+				"win",
+				"windows"
+			],
+			[
+				"and",
+				"android"
+			],
+			[
+				"at",
+				"antialias"
+			],
+			[
+				"cus",
+				"customBounds"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"stroke",
+				"strokeColors"
+			],
+			[
+				"un",
+				"undefined"
+			],
+			[
+				"butt",
+				"buttons"
+			],
+			[
+				"FR",
+				"FORWARD_BUTTON"
+			],
+			[
+				"but",
+				"buttons"
+			],
+			[
+				"update",
+				"updateButtons"
+			],
+			[
+				"for",
+				"forwardButton"
+			],
+			[
+				"rese",
+				"resetButtons"
+			],
+			[
+				"bu",
+				"buttons"
+			],
+			[
+				"lef",
+				"leftButton"
+			],
+			[
+				"ri",
+				"rightButton"
+			],
+			[
+				"he",
+				"height"
+			],
+			[
+				"sw",
+				"sword"
+			],
+			[
+				"addk",
+				"addKeys"
+			],
+			[
+				"key",
+				"keycodes"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/D/wamp/www/phaser-templates/electron/main.js",
+			"settings":
+			{
+				"buffer_size": 1611,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"gits",
+				"Git: Status"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 416.0
+	},
+	"console":
+	{
+		"height": 146.0,
+		"history":
+		[
+			"import urllib.request,os; pr='Preferences.sublime-settings'; ip='ignored_packages'; n='Package Control'; s=sublime.load_settings(pr); ig=s.get(ip); ig.append(n); s.set(ip,ig); sublime.save_settings('Preferences.sublime-settings'); pf=n+'.sublime-package'; urllib.request.install_opener(urllib.request.build_opener(urllib.request.ProxyHandler())); by=urllib.request.urlopen('https://packagecontrol.io/'+pf.replace(' ','%20')).read(); open(os.path.join(sublime.installed_packages_path(),pf),'wb').write(by); ig.remove(n); s.set(ip,ig); sublime.save_settings(pr); print('Package Control: 3.0.0 upgrade successful!')",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/wamp/www/phaser/src",
+		"/D/wamp/www/phaser/src/core",
+		"/D/wamp/www/phaser-examples",
+		"/D/wamp/www/phaser-examples/examples",
+		"/D/wamp/www/phaser-examples/examples/filters",
+		"/D/wamp/www/phaser-templates",
+		"/D/wamp/www/phaser-templates/electron",
+		"/D/wamp/www/phaser-templates/electron/src"
+	],
+	"file_history":
+	[
+		"/D/wamp/www/phaser-templates/electron/src/game.js",
+		"/D/wamp/www/phaser-templates/electron/index.html",
+		"/D/wamp/www/phaser-templates/webpack/index.html",
+		"/D/wamp/www/phaser/src/core/Game.js",
+		"/D/wamp/www/phaser-templates/electron/package.json",
+		"/D/wamp/www/phaser-templates/webpack/webpack.config.js",
+		"/D/wamp/www/phaser-templates/webpack/src/entry.js",
+		"/D/wamp/www/phaser-examples/examples/arcade physics/direct body movement.js",
+		"/D/wamp/www/phaser-templates/webpack/package.json",
+		"/D/wamp/www/phaser-templates/webpack/src/main.js",
+		"/D/wamp/www/phaser-templates/webpack/lib/phaser-undef.js",
+		"/D/wamp/www/phaser-templates/webpack/lib/pixi-undef.js",
+		"/D/wamp/www/phaser-templates/webpack/src/content.js",
+		"/D/wamp/www/phaser-templates/webpack/entry.js",
+		"/D/wamp/www/phaser-templates/webpack/content.js",
+		"/D/wamp/www/phaser-templates/requirejs/index.html",
+		"/D/wamp/www/phaser-templates/requirejs/app.js",
+		"/D/wamp/www/phaser/README.md",
+		"/D/wamp/www/phaser/src/tilemap/Tilemap.js",
+		"/D/wamp/www/phaser/src/particles/Particles.js",
+		"/D/wamp/www/phaser/src/particles/arcade/Emitter.js",
+		"/D/wamp/www/phaser-examples/examples/particles/destroy emitter.js",
+		"/D/wamp/www/phaser-examples/examples/tilemaps/create from objects.js",
+		"/D/wamp/www/phaser/src/tween/TweenManager.js",
+		"/D/wamp/www/phaser/src/tween/Tween.js",
+		"/D/wamp/www/phaser/typescript/phaser.d.ts",
+		"/D/wamp/www/phaser/src/input/MSPointer.js",
+		"/D/wamp/www/phaser/src/physics/p2/Body.js",
+		"/D/wamp/www/phaser/src/input/Mouse.js",
+		"/D/wamp/www/phaser/src/input/Input.js",
+		"/D/wamp/www/phaser-examples/examples/input/out of game mouse up.js",
+		"/D/wamp/www/phaser/src/system/Device.js",
+		"/D/wamp/www/phaser/src/input/Pointer.js",
+		"/D/wamp/www/phaser/src/gameobjects/BitmapData.js",
+		"/D/wamp/www/phaser/src/utils/Debug.js",
+		"/D/wamp/www/phaser/src/input/Touch.js",
+		"/D/wamp/www/phaser-examples/examples/groups/create thumbnail.js",
+		"/D/wamp/www/index.php",
+		"/D/wamp/www/phaser/src/gameobjects/Graphics.js",
+		"/D/wamp/www/phaser/src/pixi/primitives/Graphics.js",
+		"/D/wamp/www/phaser-examples/examples/display/generate texture from graphics.js",
+		"/D/wamp/www/phaser/src/gameobjects/BitmapText.js",
+		"/D/wamp/www/phaser-examples/examples/text/hello arial.js",
+		"/D/wamp/www/phaser-examples/examples/text/bitmaptext with physics.js",
+		"/D/wamp/www/phaser-examples/examples/particles/flow.js",
+		"/D/wamp/www/phaser-examples/examples/groups/call all animations.js",
+		"/D/wamp/www/phaser-examples/examples/games/invaders.js",
+		"/D/wamp/www/phaser/src/pixi/display/DisplayObject.js",
+		"/D/wamp/www/phaser/src/pixi/textures/RenderTexture.js",
+		"/D/wamp/www/phaser/Gruntfile.js",
+		"/D/wamp/www/phaser/src/Phaser.js",
+		"/D/wamp/www/phaser/tasks/options/concat.js",
+		"/D/wamp/www/phaser/dist/p2.js",
+		"/D/wamp/www/phaser/tasks/options/uglify.js",
+		"/D/wamp/www/phaser/dist/pixi.js",
+		"/D/wamp/www/interphase1/coverdisk/games/aquaplane/game.js",
+		"/D/wamp/www/interphase1/README.md",
+		"/D/wamp/www/phaser/src/physics/p2/World.js",
+		"/D/wamp/www/phaser/src/physics/p2/p2.js",
+		"/D/wamp/www/phaser/src/physics/p2/DistanceConstraint.js",
+		"/D/wamp/www/phaser/src/physics/p2/RevoluteConstraint.js",
+		"/D/wamp/www/phaser/src/physics/p2/PrismaticConstraint.js",
+		"/D/wamp/www/phaser-examples/examples/p2 physics/springs.js",
+		"/D/wamp/www/phaser-examples/examples/p2 physics/mouse spring.js",
+		"/D/wamp/www/phaser-examples/examples/p2 physics/movement constraint.js",
+		"/D/wamp/www/phaser-examples/examples/p2 physics/distance constraint.js",
+		"/D/wamp/www/phaser-examples/examples/p2 physics/thrust.js",
+		"/D/wamp/www/interphase1/coverdisk/index.html",
+		"/D/wamp/www/interphase1/coverdisk/games/lazerdash/game.js",
+		"/D/wamp/www/phaser-examples/examples/p2 physics/basic movement.js",
+		"/D/wamp/www/interphase1/coverdisk/games/hothoops/game.js",
+		"/D/wamp/www/interphase1/game-template.js",
+		"/D/wamp/www/interphase1/coverdisk/games/aquaplane/index.html",
+		"/D/wamp/www/interphase1/coverdisk/games/hothoops/index.html",
+		"/D/wamp/www/interphase1/coverdisk/games/offthehook/game.js",
+		"/D/wamp/www/phaser-examples/examples/minimal.php",
+		"/D/wamp/www/phaser-examples/examples/particles/snow.js",
+		"/D/wamp/www/phaser/src/physics/arcade/Body.js",
+		"/D/wamp/www/interphase1/coverdisk/games/minedout/game.js",
+		"/D/wamp/www/interphase1/coverdisk/games/offthehook/index.html",
+		"/D/wamp/www/interphase1/coverdisk/games/minedout/index.html",
+		"/D/wamp/www/interphase1/coverdisk/games/10secs/game.js",
+		"/D/wamp/www/arcadestorm/VirtualJoysticks/examples/show-on-touch.html",
+		"/D/wamp/www/arcadestorm/VirtualJoysticks/plugin/src/Stick.js",
+		"/D/wamp/www/phaser/src/time/Timer.js",
+		"/D/wamp/www/interphase1/coverdisk/games/10secs/index.html",
+		"/D/wamp/www/interphase1/coverdisk/games/lazerdash/index.html",
+		"/D/wamp/www/interphase1/coverdisk/games/slalom/game.js",
+		"/D/wamp/www/interphase1/coverdisk/sftp-config.json",
+		"/D/wamp/www/arcadestorm/sftp-config.json",
+		"/D/wamp/www/phaser/src/core/World.js",
+		"/D/wamp/www/phaser/src/input/Keyboard.js",
+		"/D/wamp/www/phaser/src/loader/Loader.js",
+		"/D/wamp/www/interphase1/coverdisk/games/slalom/index.html",
+		"/D/wamp/www/phaser-examples/examples/wip/rect.js",
+		"/D/wamp/www/phaser-examples/examples/assets/asset-pack1.json",
+		"/D/wamp/www/phaser/resources/Asset Pack JSON Format/assetPack.json",
+		"/D/wamp/www/phaser-examples/examples/loader/asset pack.js",
+		"/D/wamp/www/phaser-examples/examples/text/bitmap fonts.js",
+		"/D/wamp/www/phaser-examples/examples/assets/asset-pack2.json",
+		"/D/wamp/www/phaser/src/sound/Sound.js",
+		"/D/wamp/www/phaser/src/loader/Cache.js",
+		"/D/wamp/www/phaser-examples/examples/audio/remove sound.js",
+		"/D/wamp/www/phaser/src/sound/SoundManager.js",
+		"/D/wamp/www/phaser-examples/examples/input/mouse buttons.js",
+		"/D/wamp/www/phaser/src/input/InputHandler.js",
+		"/D/wamp/www/arcadestorm/Atoms/src/MainMenu.js",
+		"/D/wamp/www/arcadestorm/Atoms/src/Boot.js",
+		"/D/wamp/www/interphase1/articles/editorial/editorial.md",
+		"/D/wamp/www/interphase1/.gitignore",
+		"/D/wamp/www/arcadestorm/Atoms/index.php",
+		"/D/wamp/www/bbc/treefutom/BBCSiteRelease/html5/v2/game.min.js",
+		"/D/wamp/www/phaser-examples/examples/config.php",
+		"/D/wamp/www/phaser-examples/examples/arcade physics/accelerate to pointer.js",
+		"/D/wamp/www/phaser/CHANGELOG.md",
+		"/D/wamp/www/phaser/src/pixi/textures/BaseTexture.js",
+		"/D/wamp/www/phaser-templates/browserify/index.html",
+		"/D/wamp/www/phaser-templates/browserify/package.json",
+		"/D/wamp/www/phaser-templates/browserify/bundle.js",
+		"/D/wamp/www/phaser-templates/browserify/main.js",
+		"/D/wamp/www/phaser-templates/browserify/game.js",
+		"/D/wamp/www/phaser/package.json",
+		"/D/wamp/www/phaser-templates/requirejs/src/main.js",
+		"/D/wamp/www/phaser-templates/systemjs/src/main.js",
+		"/D/wamp/www/phaser-templates/systemjs/index.html",
+		"/D/wamp/www/phaser-templates/requirejs/src/game.js",
+		"/D/wamp/www/phaser/src/pixi/Intro.js",
+		"/D/wamp/www/phaser/src/pixi/Outro.js"
+	],
+	"find":
+	{
+		"height": 38.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"D:\\wamp\\www\\phaser\\src",
+			"D:\\wamp\\www\\phaser-examples\\examples",
+			"D:\\wamp\\www\\phaser\\src\\sound",
+			"D:\\wamp\\www\\phaser\\src",
+			"D:\\wamp\\www\\phaser\\src\\pixi",
+			"D:\\wamp\\www\\phaser\\src",
+			"D:\\wamp\\www\\phaser-particles-plugin\\plugin\\src",
+			"D:\\wamp\\www\\phaser-particles-plugin\\prep\\pete\\Particles\\src",
+			"D:\\wamp\\www\\p2.js\\src",
+			"D:\\wamp\\www\\phaser\\src\\physics\\p2",
+			"D:\\wamp\\www\\phaser\\src\\pixi",
+			"D:\\wamp\\www\\basecommand",
+			"D:\\wamp\\www\\phaser-particles-plugin\\plugin\\src",
+			"D:\\wamp\\www\\phaser\\src",
+			"D:\\wamp\\www\\phaser-particles-plugin\\plugin\\src",
+			"D:\\wamp\\www\\phaser\\src",
+			"D:\\wamp\\www\\phaser-particles-plugin\\plugin\\src",
+			"D:\\wamp\\www\\phaser\\src",
+			"D:\\wamp\\www\\phaser\\src\\pixi",
+			"D:\\wamp\\www\\phaser\\src",
+			"D:\\wamp\\www\\phaser\\src\\animation",
+			"D:\\wamp\\www\\phaser\\src",
+			"D:\\wamp\\www\\phaser-box2d\\src\\plugin",
+			"D:\\wamp\\www\\phaser\\src\\pixi",
+			"D:\\wamp\\www\\phaser\\src",
+			"D:\\wamp\\www\\phaser\\src\\gameobjects",
+			"D:\\wamp\\www\\phaser\\src",
+			"D:\\wamp\\www\\phaser\\src\\gameobjects\\components",
+			"D:\\wamp\\www\\phaser\\src",
+			"D:\\wamp\\www\\phaser\\src\\gameobjects\\components",
+			"D:\\wamp\\www\\phaser\\src\\tween",
+			"D:\\wamp\\www\\phaser\\src\\pixi\\display",
+			"D:\\wamp\\www\\phaser\\src\\pixi",
+			"D:\\wamp\\www\\phaser\\src\\gameobjects\\components",
+			"D:\\wamp\\www\\phaser\\src",
+			"D:\\wamp\\www\\phaser\\src\\gameobjects",
+			"D:\\wamp\\www\\phaser\\src\\input",
+			"D:\\wamp\\www\\phaser-examples\\examples",
+			"D:\\wamp\\www\\phaser\\src\\gameobjects",
+			"D:\\wamp\\www\\phaser\\src",
+			"D:\\wamp\\www\\phaser\\src\\gameobjects",
+			"D:\\wamp\\www\\phaser\\src\\pixi",
+			"D:\\wamp\\www\\photonstorm-pixi.js\\src\\pixi",
+			"D:\\wamp\\www\\phaser-examples\\examples",
+			"D:\\wamp\\www\\phaser\\src",
+			"D:\\wamp\\www\\phaser\\src\\pixi",
+			"D:\\wamp\\www\\phaser\\src",
+			"D:\\wamp\\www\\phaser-examples\\examples\\wip\\tweens",
+			"D:\\wamp\\www\\phaser\\src\\pixi",
+			"D:\\wamp\\www\\phaser\\src",
+			"D:\\wamp\\www\\phaser\\src\\tilemap",
+			"D:\\wamp\\www\\phaser\\src",
+			"D:\\wamp\\www\\phaser-box2d\\src\\plugin",
+			"D:\\wamp\\www\\phaser\\src",
+			"D:\\wamp\\www\\phaser\\src\\pixi",
+			"D:\\wamp\\www\\phaser\\src",
+			"D:\\wamp\\www\\phaser\\src\\tilemap",
+			"D:\\wamp\\www\\phaser\\src\\pixi",
+			"D:\\wamp\\www\\phaser\\docs",
+			"D:\\wamp\\www\\phaser\\src",
+			"D:\\wamp\\www\\photonstorm-pixi.js\\src",
+			"D:\\wamp\\www\\phaser\\src",
+			"D:\\wamp\\www\\phaser\\src\\physics\\p2",
+			"D:\\wamp\\www\\phaser\\src",
+			"D:\\wamp\\www\\phaser\\src\\pixi",
+			"D:\\wamp\\www\\photonstorm-pixi.js\\src\\pixi",
+			"D:\\wamp\\www\\phaser\\src",
+			"D:\\wamp\\www\\photonstorm-pixi.js\\src\\pixi",
+			"D:\\wamp\\www\\phaser\\src\\gameobjects",
+			"D:\\wamp\\www\\phaser\\src\\pixi",
+			"D:\\wamp\\www\\phaser\\docs",
+			"D:\\wamp\\www\\phaser\\src",
+			"D:\\wamp\\www\\phaser-path-plugin\\curvy",
+			"D:\\wamp\\www\\phaser\\src",
+			"D:\\wamp\\www\\phaser",
+			"D:\\wamp\\www\\phaser\\src",
+			"D:\\wamp\\www\\phaser\\docs",
+			"D:\\wamp\\www\\phaser\\src",
+			"D:\\wamp\\www\\phaser-examples\\examples\\wip",
+			"D:\\wamp\\www\\phaser\\src",
+			"D:\\wamp\\www\\phaser\\src\\input",
+			"D:\\wamp\\www\\phaser-examples\\examples\\_site",
+			"D:\\wamp\\www\\phaser\\src",
+			"D:\\wamp\\www\\phaser-path-plugin\\src",
+			"D:\\wamp\\www\\phaser\\src",
+			"D:\\wamp\\www\\phaser\\src\\gameobjects",
+			"D:\\wamp\\www\\photonstorm-pixi.js\\src\\pixi",
+			"D:\\wamp\\www\\phaser\\src\\loader",
+			"D:\\wamp\\www\\phaser\\docs",
+			"D:\\wamp\\www\\phaser\\src",
+			"D:\\wamp\\www\\phaser\\src\\pixi\\display",
+			"D:\\wamp\\www\\phaser\\src\\pixi",
+			"D:\\webroot\\dev.phaser.io\\wp-content\\themes\\phasercom2",
+			"D:\\wamp\\www\\phaser\\src\\input",
+			"D:\\wamp\\www\\phaser\\src\\pixi",
+			"D:\\wamp\\www\\phaser\\docs",
+			"D:\\wamp\\www\\phaser\\src",
+			"D:\\wamp\\www\\phaser-examples\\examples\\wip",
+			"D:\\wamp\\www\\phaser-examples\\projects\\rox\\src",
+			"D:\\wamp\\www\\phaser\\src",
+			"D:\\wamp\\www\\phaser",
+			"D:\\wamp\\www\\phaser\\src\\pixi",
+			"D:\\wamp\\www\\phaser-examples\\projects\\missilecommand\\src",
+			"D:\\wamp\\www\\phaser\\src\\gameobjects",
+			"D:\\wamp\\www\\phaser\\src",
+			"D:\\wamp\\www\\phaser-examples",
+			"D:\\wamp\\www\\phaser\\src",
+			"D:\\wamp\\www\\phaser\\src\\tilemap",
+			"D:\\wamp\\www\\p2.js\\src",
+			"D:\\wamp\\www\\phaser\\src",
+			"D:\\wamp\\www\\p2.js\\demos",
+			"D:\\wamp\\www\\p2.js\\examples",
+			"D:\\wamp\\www\\p2.js\\demos",
+			"D:\\wamp\\www\\p2.js\\examples",
+			"D:\\wamp\\www\\phaser\\examples",
+			"D:\\wamp\\www\\phaser\\src\\physics\\p2",
+			"D:\\wamp\\www\\phaser\\examples\\wip",
+			"D:\\wamp\\www\\phaser\\src",
+			"D:\\wamp\\www\\phaser\\src\\gameobjects",
+			"D:\\wamp\\www\\photonstorm-pixi.js\\src\\pixi",
+			"D:\\wamp\\www\\phaser\\examples",
+			"D:\\wamp\\www\\phaser\\src\\gameobjects",
+			"D:\\wamp\\www\\phaser\\src",
+			"D:\\wamp\\www\\phaser\\src\\pixi",
+			"D:\\wamp\\www\\phaser\\src",
+			"D:\\wamp\\www\\photonstorm-pixi.js\\src",
+			"D:\\wamp\\www\\phaser\\src\\physics",
+			"D:\\wamp\\www\\phaser\\src"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"script!",
+			"this.objects[name][i]",
+			"device.desktop",
+			"this",
+			"game.input",
+			"this.game.input",
+			"this.withinGame",
+			"false",
+			", true",
+			"add",
+			", true",
+			"add",
+			"Up",
+			"Mouse",
+			"MSP",
+			"makeThumbnail",
+			"assets/sprites/coin.png",
+			"parent",
+			"filelist",
+			"sourcemap",
+			"filename",
+			"DistanceConstraint",
+			"force",
+			"Template",
+			"Hot Hoops",
+			" === 0",
+			"emitterBack",
+			"-32",
+			"mid_emitter",
+			"back_emitter",
+			"wormReleaseRate",
+			"facing",
+			"move",
+			"Template",
+			"Mined Out",
+			"this.stickHitArea",
+			"this._showOnTouch",
+			"Template",
+			"player.velocity",
+			"Template",
+			"Slalom",
+			"xml",
+			"isSoundDecoded",
+			"removeSound",
+			"this.updateButtons",
+			"Preloader",
+			"var ",
+			"Atoms",
+			"tree",
+			"this.scrollSpeed",
+			"console.log",
+			"PIXI",
+			"dragon",
+			"excludes",
+			"intro",
+			"verticies",
+			"PIXI",
+			"loop",
+			"inputUVs",
+			"inputVerts",
+			"target_creature",
+			"creature_manager",
+			"target_creature",
+			"Create",
+			"[type]",
+			"video",
+			"height",
+			"width",
+			"y",
+			"mat2",
+			"tab",
+			"PIXI.BaseTextureCache",
+			"class Cache",
+			"context",
+			"view",
+			"handleContextRestored",
+			"width",
+			"fromCanvas",
+			"_pixiId",
+			"generateCache",
+			"this._frame",
+			"sprite",
+			"ship",
+			"this.game.canvas",
+			"this.game.input",
+			"this.game.canvas",
+			"this.bmd",
+			"Mouse",
+			"dispatch",
+			"this._cache.image[key]",
+			"isDown",
+			"button",
+			"this.button",
+			"shift",
+			"float",
+			"GamepadButton",
+			"dispatch",
+			"altKey",
+			"alt",
+			"isUp",
+			"_history",
+			"leftButton",
+			"processButtonDown",
+			"processButtonFloat",
+			"processButtonUp",
+			"processButtonDown",
+			" = false",
+			"false",
+			"boolean",
+			"this.pad",
+			"GamepadButton",
+			", cache?: number",
+			"class Cache",
+			"this._cache.sound[key]",
+			"entry",
+			"this._cache.atlas[key]",
+			"type",
+			"obj",
+			"this._cache.image[key]",
+			"Phaser.Cache.TEXTURE",
+			"PIXI.BaseTextureCache",
+			"game.rnd.uuid",
+			"this.game.cache",
+			"item",
+			"removeRenderTexture",
+			"removeShader",
+			"removeVideo",
+			"getVideo"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"AquaPlane",
+			"OffTheHook",
+			"Clicker",
+			"LazerDash",
+			"Template",
+			"vertices",
+			"manager",
+			"this.input",
+			"DeviceButton",
+			"canvasZoom",
+			"lifePercent",
+			"getValue",
+			"Control",
+			"DataVar",
+			"@method Phaser.ParticleStorm.Particle#",
+			"renderer",
+			"Phaser.ParticleStorm.ParticleID",
+			"alien",
+			"If the URL is relative the Loader.baseURL value will be prepended to it.",
+			"tilePattern",
+			"megaFont",
+			"color",
+			"hash",
+			"@method ",
+			"@method Phaser.VirtualJoystick.Button#",
+			"@method Phaser.VirtualJoystick.DPad#",
+			"@method Phaser.VirtualJoystick.Stick#",
+			"@name Phaser.VirtualJoystick.DPad",
+			"this.quadrant",
+			"{Phaser.Sprite}",
+			"this.sprite",
+			"this.catmullTool",
+			"this.bezierTool",
+			"this.linearTool",
+			"this.hint",
+			"draggedHandle",
+			"2015 Photon Storm Ltd",
+			"optionsForm",
+			".min.js",
+			"compile_dir",
+			".dest %>'],",
+			"['<%= concat.",
+			"maxOverlap",
+			"dy",
+			"dx",
+			"angle",
+			"interpolationContext",
+			"this.cursorIndex",
+			"WebGL",
+			"previousRotation",
+			"previousPosition",
+			"cameraOffset",
+			"this.pacman",
+			"this.player",
+			"_spiraling",
+			"SetAsBox",
+			"car",
+			"",
+			"</a>",
+			"//phaser.io/images/github/",
+			"bmdAlpha",
+			"",
+			"!== ",
+			"isFrom",
+			"this.isRunning",
+			"_pausedTime",
+			"isPaused",
+			"Sine",
+			"loadValues",
+			"vStartCache",
+			"vEnd",
+			"vStart",
+			"this.parent.target",
+			"chainedTweens",
+			"interpolationFunction",
+			"easingFunction",
+			"startTime",
+			"_delay",
+			"inReverse",
+			"yoyo",
+			"repeatCounter",
+			"duration",
+			"manager",
+			"parent",
+			"target",
+			"IceSmash",
+			"Bomber",
+			"Crusher",
+			"game.time.time",
+			"2.2.0",
+			"_resolveURL",
+			"",
+			"{Texture}",
+			"window.console.log",
+			"",
+			"method",
+			"",
+			"_pos",
+			"type",
+			"",
+			"this._frame",
+			"this.index",
+			"this.connected",
+			"this.cropRect",
+			"/phaser",
+			"",
+			"Phaser.DummySignal",
+			"@return {Phaser.Point}",
+			"Rox",
+			"//Playtomic",
+			"### Up",
+			"## Version",
+			"Phaser.Physics.P2.Material",
+			"{boolean}",
+			"{string}",
+			"{number}",
+			"@method Phaser.Physics.Arcade.Body#",
+			"@return",
+			"MissileCommand",
+			"docs.phaser.io/",
+			"this._mc",
+			"dirty",
+			"': '",
+			"':",
+			"'",
+			":",
+			"'",
+			"],"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/D/wamp/www/phaser-templates/electron/main.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1611,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								226,
+								226
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"open_with_edit": true,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 124.0
+	},
+	"pinned_build_system": "",
+	"project": "Phaser.sublime-project",
+	"replace":
+	{
+		"height": 70.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"read",
+				"phaser\\README.md"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"D:\\wamp\\www\\phaser.io\\Phaser.io Site.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 300.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
