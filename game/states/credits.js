@@ -1,6 +1,6 @@
-var credits = function(game) {};
+var Credits = function(game) {};
 
-credits.prototype = {
+Credits.prototype = {
 
   preload: function () {
     this.optionCount = 1;

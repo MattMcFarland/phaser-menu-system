@@ -1,6 +1,6 @@
-var theGame = function(game) {};
+var Game = function(game) {};
 
-theGame.prototype = {
+Game.prototype = {
 
   preload: function () {
     this.optionCount = 1;

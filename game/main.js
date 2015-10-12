@@ -1,28 +1,21 @@
-var game = new Phaser.Game(800, 600, Phaser.AUTO, "game");
+var game = new Phaser.Game(800, 600, Phaser.AUTO, 'game'), Main = function () {};
 
-
-
-var boot = function(game){
-  console.log("%cCreated by Matt McFarland", "color:white; background:red");
-};
-
-boot.prototype = {
+Main.prototype = {
 
   preload: function () {
-    this.game.load.image('stars', 'assets/images/stars.jpg');
-    this.game.load.image("loading","assets/images/loading.png");
-    this.game.load.image("brand","assets/images/logo.png");
-    this.game.load.script('preload', 'states/preload.js');
+    game.load.image('stars',    'assets/images/stars.jpg');
+    game.load.image('loading',  'assets/images/loading.png');
+    game.load.image('brand',    'assets/images/logo.png');
+    game.load.script('utils',   'lib/utils.js');
+    game.load.script('splash',  'states/splash.js');
   },
 
   create: function () {
-    //this.scale.scaleMode = Phaser.ScaleManager.SHOW_ALL;
-    this.scale.pageAlignHorizontally = true;
-    this.game.state.add("Preload", preload);
-    this.game.state.start("Preload");
-
+    game.state.add('Splash', Splash);
+    game.state.start('Splash');
   }
+
 };
 
-game.state.add("Boot", boot);
-game.state.start("Boot");
+game.state.add('Main', Main);
+game.state.start('Main');

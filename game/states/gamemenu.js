@@ -1,6 +1,6 @@
-var gameMenu = function(game) {};
+var GameMenu = function(game) {};
 
-gameMenu.prototype = {
+GameMenu.prototype = {
   preload: function () {
     this.optionCount = 1;
   },
@@ -46,7 +46,7 @@ gameMenu.prototype = {
     text.setShadow(3, 3, 'rgba(0,0,0,0.5)', 5);
     text.anchor.set(0.5);
     this.addMenuOption('Start', function (e) {
-      this.game.state.start("TheGame");
+      this.game.state.start("Game");
     });
     this.addMenuOption('Options', function (e) {
       this.game.state.start("Options");
