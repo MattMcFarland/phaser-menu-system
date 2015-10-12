@@ -7,7 +7,7 @@ Main.prototype = {
     game.load.image('loading',  'assets/images/loading.png');
     game.load.image('brand',    'assets/images/logo.png');
     game.load.script('utils',   'lib/utils.js');
-    game.load.script('splash',  'states/splash.js');
+    game.load.script('splash',  'states/Splash.js');
   },
 
   create: function () {
