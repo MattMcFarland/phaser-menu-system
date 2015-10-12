@@ -7,12 +7,13 @@ This aims to be an exhaustive tutorial and example/boilerplate with hopes of tea
 * Game state management
 * Navigation between Main Menu, Options Screen, and more.
 
+You can view the finished product here: http://mmcfarland.itch.io/phaser-menu-system
+
 ## Chapter 1 - The Splash Screen
 
 When finishing this chapter we'll create a cool splash screen with a preloading progress bar.  The progress bar
 will also be available very early, as it will load all dependent scripts as well.  We'll also load and play music,
 and load a custom font!  Additionally, we'll touch the surface of the game state management system.
-
 
 ## Part 1: Orientation
 
@@ -86,30 +87,26 @@ to show our cool splash screen, and then start the splash screen once it is read
 game/main.js
 
 ```
-var game = new Phaser.Game(800, 600, Phaser.AUTO, 'game'), main = {};
+var game = new Phaser.Game(800, 600, Phaser.AUTO, 'game'), Main = function () {};
 
-main.prototype = {
-  // Our preload function loads our newly created images
+Main.prototype = {
+
   preload: function () {
     game.load.image('stars',    'assets/images/stars.jpg');
     game.load.image('loading',  'assets/images/loading.png');
     game.load.image('brand',    'assets/images/logo.png');
-    // states/splash.js will be used to show our cool splash screen.
-    game.load.script('splash',  'states/splash.js');
+    game.load.script('utils',   'lib/utils.js');
+    game.load.script('splash',  'states/Splash.js');
   },
-  // phaser will run create function as soon as the preload function finishes loading all of the file assets.
+
   create: function () {
-    // The game will create a new phaser object called Splash from the splash object.
-    // Notice we didn't create a splash object?  no worries, the splash object will exist because we
-    // will create it in states/splash.js - which always happens before the create function calls.
-    game.state.add('Splash', splash);
+    game.state.add('Splash', Splash);
     game.state.start('Splash');
   }
 
 };
 
-// Now to load our main script, and start!
-game.state.add('Main', main);
+game.state.add('Main', Main);
 game.state.start('Main');
 ```
 
@@ -271,7 +268,7 @@ main.js (preload function)
     game.load.image('loading',  'assets/images/loading.png');
     game.load.image('brand',    'assets/images/logo.png');
     game.load.script('utils',   'lib/utils.js');
-    game.load.script('splash',  'states/splash.js');
+    game.load.script('splash',  'states/Splash.js');
   },
 
 ```
