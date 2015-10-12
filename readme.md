@@ -86,7 +86,7 @@ to show our cool splash screen, and then start the splash screen once it is read
 
 game/main.js
 
-```
+```javascript
 var game = new Phaser.Game(800, 600, Phaser.AUTO, 'game'), Main = function () {};
 
 Main.prototype = {
@@ -193,7 +193,7 @@ for one: I don't like that we are using game.add.sprite before we use var, becau
 create the var for me at the top of the function and it will be undefined.  This is known as hoisting.  I dont want
 to get into too much detail about it.  But it might be better to do it this way:
 
-```
+```javascript
   preload: function () {
     var myLogo, loadingBar, status;
     game.add.sprite(0, 0, 'stars');
@@ -213,7 +213,7 @@ how it works.  You don't have to do it this way, but it surely is a style that I
 BUT.. there's another problem with this...  I don't have to use maths to center the logo, instead all I have to do
 is anchor.setTo(0.5)
 
-```
+```javascript
   preload: function () {
     var myLogo, loadingBar, status;
     game.add.sprite(0, 0, 'stars');
@@ -372,7 +372,7 @@ we dont put the font in our html file, this means that we can use our cool splas
 Now let's create the create function, and have it change the text from "Loading" to "Ready" - then add a 5 second
 timer before loading the next screen.
 
-```
+```javascript
   create: function() {
     this.status.setText('Ready!');
 
