@@ -276,7 +276,7 @@ main.js (preload function)
 My new splash screen (now using the handy init function!)
 
 
-```
+```javascript
   init: function () {
     this.loadingBar = game.make.sprite(game.world.centerX-(387/2), 400, "loading");
     this.logo       = game.make.sprite(game.world.centerX, 200, 'brand');
