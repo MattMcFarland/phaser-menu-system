@@ -6,6 +6,7 @@ var Splash = function () {},
 Splash.prototype = {
 
   loadScripts: function () {
+    game.load.script('style', 'lib/style.js');
     game.load.script('WebFont', 'vendor/webfontloader.js');
     game.load.script('gamemenu','states/GameMenu.js');
     game.load.script('game', 'states/Game.js');

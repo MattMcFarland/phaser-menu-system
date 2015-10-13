@@ -403,6 +403,33 @@ We also want to enqueue the other states of our game like so:
 
 ```
 
+For each of the states, go ahead and create the following files:
+
+game/states/Credits.js
+```javascript
+var Credits = function () {};
+```
+
+game/states/Game.js
+```javascript
+var Game = function () {};
+```
+
+game/states/GameMenu.js
+```javascript
+var GameMenu = function () {};
+```
+
+game/states/GameOver.js
+```javascript
+var Credits = function () {};
+```
+
+game/states/Options.js
+```javascript
+var Options = function () {};
+```
+
 
 #### Playing music
 
@@ -506,7 +533,7 @@ Splash.prototype = {
 
 That's it for Chapter 1!!!  Please star this and share it with your friends.  If you have any questions you can send me a message on twitter @docodemore.
 
-I will be working on Chapter 2, which will cover the Main Menu portion next.  Stay tuned and thank you so much for reading.
+Read on to [Chapter 2 - The Game Menu](./chapter2.md)
 
 ### Acknowledgements:
 This system is based off of [Understanding Phaser States by Emanuele Feronato](http://www.emanueleferonato.com/2014/08/28/phaser-tutorial-understanding-phaser-states/) and also some other tutorials I've used in the past that were actually for different game engines.  The purpose is to have a re-usable game menu system.

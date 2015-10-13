@@ -1,3 +1,4 @@
+var hasProp = {}.hasOwnProperty;
 var utils = {
   centerGameObjects: function (objects) {
     objects.forEach(function (object) {
