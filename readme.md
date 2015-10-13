@@ -38,7 +38,7 @@ game/
 ### The HTML file
 
 For this HTML file we're going to do something a little different then you might have seen across the web.  Rather
-then loading all of our assets in `script` tags, I want you to just load the minimum.  So it looks like we only need
+than loading all of our assets in `script` tags, I want you to just load the minimum.  So it looks like we only need
 `phaser.js` and `main.js` Now if you are wondering why, and how we are going to load everything I look forward to
 explaining further below.  Don't worry, we're not going to put everything in one monolithic file either!
 
@@ -59,8 +59,9 @@ The [index.html](./game/index.html)
 ```
 
 The benefit is that we can actually have the engine start up much sooner.  This way, the users don't have to wait
-so long before before being greeted with the splash screen.  I don't know about you but, I have
-closed my browser before fully loading a game before simply because I saw a blank screen.
+so long before before being greeted with the splash screen.  I don't know about you, but I have personally
+closed my browser before fully loading a game simply because I saw a blank screen.  So let's try to shorten that as
+much as possible to improve our user experience.
 
 So what do we need to load before we can show our cool splash screen??
 
@@ -168,7 +169,9 @@ to our `preload` function:
     var myLogo = game.add.sprite(game.world.centerX-120, 100, 'brand');
     // loading bar
     var loadingBar = game.add.sprite(game.world.centerX-(387/2), 400, "loading");
-    // my logo was too big, so i use scale to set it down, not optimal but it works for this.
+    // my logo was too big, so i use scale to set it down, not optimal but it works for now, plus later on
+    // I am going to show you a neet trick with scale, although really in production you should never do this, especially
+    // for a splash screen!
     myLogo.scale.setTo(0.5);
     // add text that says its loading
     var status = game.add.text(game.world.centerX, 380, 'Loading...', {fill: 'white'});
