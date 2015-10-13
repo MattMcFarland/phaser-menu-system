@@ -11,9 +11,10 @@ You can view the finished product here: http://mmcfarland.itch.io/phaser-menu-sy
 
 ## Chapter 1 - The Splash Screen
 
-When finishing this chapter we'll create a cool splash screen with a preloading progress bar.  The progress bar
-will also be available very early, as it will load all dependent scripts as well.  We'll also load and play music,
-and load a custom font!  Additionally, we'll touch the surface of the game state management system.
+When finishing this chapter we'll create a cool splash screen with a preloading progress bar.  We're also going
+to leverage phaser's asset loading system to grab scripts, a custom font, images, and music files
+so the engine loads up real quick and the progress bar will update as assets are cached.  Additionally, we'll
+touch the surface of the game state management system.
 
 ## Part 1: Orientation
 
@@ -21,7 +22,7 @@ and load a custom font!  Additionally, we'll touch the surface of the game state
 
 My directory structure follows a kind-of hybrid of scaffolds I've used in the past for web application development as well
 as game development with different engines.  I am not saying it's the best one, but please follow it this time so you
-can easily follow the tutorial.  If you get stuck at any time.  The source code is available to you on this github page.
+can easily follow the tutorial.  If you get stuck at any time the source code is available to you on this github page.
 
 ```
 game/
@@ -38,8 +39,8 @@ game/
 
 For this HTML file we're going to do something a little different then you might have seen across the web.  Rather
 then loading all of our assets in `script` tags, I want you to just load the minimum.  So it looks like we only need
-`phaser.js` and `main.js` - Now if you are wondering why, and how we are going to load everything I look forward to
-explaining further below.  Don't worry, we're not going to put everything in one monolithic file either :)
+`phaser.js` and `main.js` Now if you are wondering why, and how we are going to load everything I look forward to
+explaining further below.  Don't worry, we're not going to put everything in one monolithic file either!
 
 The [index.html](./game/index.html)
 ```html
@@ -58,12 +59,12 @@ The [index.html](./game/index.html)
 ```
 
 The benefit is that we can actually have the engine start up much sooner.  This way, the users don't have to wait
-as long before they can see your cool splash screen with a nice progress bar.  I don't know about you but, I have
+so long before before being greeted with the splash screen.  I don't know about you but, I have
 closed my browser before fully loading a game before simply because I saw a blank screen.
 
 So what do we need to load before we can show our cool splash screen??
 
-* A background image - I chose space because I love space.
+* A background image(800x600) - I chose space because I love space.
 * A logo - I chose my personal logo because I made it a long time ago and I dont want to remake one
 * The progress bar - I created a simple one you are free to use.  All you need is a horizontal bar and make it 100% full
 
@@ -78,13 +79,12 @@ Or you can just use the stuff found in (./game/assets/images)
 
 So, did you create a logo, progress bar, and background image?  Or use mine? Either way, I hope you had fun!
 
-So now it's time to create the splash screen, but before we get started with that we need to have phaser go ahead
-and load our assets that we need to actually show it.
+Before we get started with the splash screen itself, we need to setup phaser to load the assets necessary to show it!
 
-Now to create the main.js file that html file was pointing at, and we're going to use it to load everything we need
-to show our cool splash screen, and then start the splash screen once it is ready.
+Now to create the main.js file that html file was pointing to, and we're going to use it to load everything we need
+to show our cool splash screen, then we'll use the state system to switch to our awesome splash screen once it is ready.
 
-game/main.js
+`assets/game/main.js``
 
 ```javascript
 var game = new Phaser.Game(800, 600, Phaser.AUTO, 'game'), Main = function () {};
@@ -95,7 +95,6 @@ Main.prototype = {
     game.load.image('stars',    'assets/images/stars.jpg');
     game.load.image('loading',  'assets/images/loading.png');
     game.load.image('brand',    'assets/images/logo.png');
-    game.load.script('utils',   'lib/utils.js');
     game.load.script('splash',  'states/Splash.js');
   },
 
@@ -112,17 +111,11 @@ game.state.start('Main');
 
 ### Preloading assets with progress
 
-states/splash.js is used to load everything else, including javascript files and out webfont loader (thank you, google)
+`assets/states/splash.js` will be used to load the rest of our assets and show a progress bar as they are loaded.
 
-The benefit is the preload function will be used to load all of the assets and instantiate the progress bar.
-Once the preload function completes, our "create" function follows.
+To keep things organized, I prefer to create specific functions that have single responsibilities.  To follow
+the single responsibility principal, let's create separate functions that load specific types of media.
 
-To keep things organized, I prefer to create specific functions that have single responsibilities.
-
-So here is how my splash object starts out:
-
-Note, all we really need to do here, is load all of the game assets (at least for this tutorial) and show our
-cool splash screen.
 ```javascript
 splash.prototype = {
 
@@ -154,15 +147,12 @@ To add the progress bar, we add the following code to our preload function:
 ```javascript
     // Add the loadingbar to the scene:
     var loadingBar = game.add.sprite(game.world.centerX, 400, "loading");
-    // set the anchor to 0.5, which anchors the center pixel to the stage, allowing centerX to align the sprite
-    // to the center.  Otherwise the left-most pixel would be pinned to the centerX position, which is not what we want.
-    loadingBar.anchor.setTo(0.5);
     // Tell phaser to use laodingBar as our preload progess bar
     this.load.setPreloadSprite(loadingBar);
 ```
+That's it! Phaser.io will then do the rest by modfying the progress bar's clipping as assets are loaded.  Once the preload
+function completes loading all of the assets, the create function will take over and the progress bar will be full.
 
-Now with our preload progress bar in full effect, we will be able to let the game start up more quickly because the rest of
-the game assets including our game scripts can be loaded and show the user a loading progress bar at the same time.
 
 #### Designing the splash screen:
 
@@ -189,9 +179,9 @@ to our `preload` function:
 
 That's nice and all, but we could do better.  In fact there are a couple things I do not like about it.
 
-for one: I don't like that we are using game.add.sprite before we use var, because the javascript engine will then
+I don't like that we are using game.add.sprite before we use `var`, because the javascript engine will then
 create the var for me at the top of the function and it will be undefined.  This is known as hoisting.  I dont want
-to get into too much detail about it.  But it might be better to do it this way:
+to get into too much detail about it, but it might be better to do it this way:
 
 ```javascript
   preload: function () {
@@ -211,7 +201,7 @@ Well, that's essentially the same thing, except we're saving the run-time compil
 how it works.  You don't have to do it this way, but it surely is a style that I prefer.
 
 BUT.. there's another problem with this...  I don't have to use maths to center the logo, instead all I have to do
-is anchor.setTo(0.5)
+is `anchor.setTo(0.5)`
 
 ```javascript
   preload: function () {
@@ -233,10 +223,12 @@ is anchor.setTo(0.5)
 Ok, that's looking better, but you know I still don't like it.  Also, DID you notice the loading bar loads from the center?
 We'll have to avoid using anchor for the loading bar unless you would prefer to keep it that way of course.
 
-Still, making multiple UI elements have the similar properties, like anchoring etc doesnt seem DRY.  I prefer
-to be DRY (Don't Repeat Yourself), and really, I'd rather declare my variables at the top and have them defined as well.
+Still, we seem to be repeating ourselves with `anchor.setTo`, really I might be nitpicking but I prefer
+to be DRY (Don't Repeat Yourself), and another thing, I'd rather declare my variables at the top AND have them defined as well.
 
-So I endeed up creating some utility or helper functions and gave them the utils namespace.
+So I ended up creating a utility or helper function and gave it the utils namespace.  The helper allowed me to avoid
+repeating the same methods, which I feel is cleaner.
+
 Since you're following along, here's another challenge for you, if you get stuck just head on over to the next chapter:
 
 #### Exercise 2:
@@ -299,13 +291,13 @@ My new splash screen (now using the handy init function!)
   },
 ```
 
-The init function calls before preload, so we can go ahead and add our sprites there, in any order we want, without
+The init function calls before preload, so we can go ahead and add our sprites there in any order we want without
 having to worry about z-order, many thanks to the `make` function.
 
-Then we can simply use `game.add` to add them to the stage.  You can notice, I also `chain` off of the addition
-of the logo and scale it right then and there.
+Then, in our `preload` function we can simply use `game.add` to add them to the stage.  You may notice that I also `chain` onto the addition
+of the logo and scale it right then and there.  I really wish phaser had more chainable methods, but that's ok. It's still a great framework!
 
-It's now time to add the scripts, images, fonts, and background game music.
+It's now time to add the scripts, images, fonts, and background game music!
 
 ## Part 4: Finishing up the splash screen/preloading assets.
 ```javascript
@@ -342,9 +334,13 @@ yourself.  I personally downloaded a custom font, in fact I think its better you
 in case a 3rd party server goes down.
 
 To add the custom font:
+
 1. Download a font from the web, a good site is http://www.dafont.com
+
 2. Put the font in assets/fonts directory  (I chose theminion.otf)
+
 3. Create a css file that defines the font
+
 
 style/theminion.css:
 ```css
@@ -369,7 +365,7 @@ we dont put the font in our html file, this means that we can use our cool splas
 ```
 
 
-Now let's create the create function, and have it change the text from "Loading" to "Ready" - then add a 5 second
+Now let's add the create function, and have it change the text from "Loading" to "Ready" - then add a 5 second
 timer before loading the next screen.
 
 ```javascript
@@ -382,9 +378,14 @@ timer before loading the next screen.
   }
 ```
 
-I decided to make it change the text to ready, so if the user is out of focus the game will not start.  THat way
-they can click to continue, otherwise it will transition on its own.  Feel free to adjust the timer, or remove it
-if you think it is too much of a delay.
+I decided to make it change the text to ready, because by default phaser will pause the game when it comes out of focus.
+So if a user sees the preload screen, then clicks on another tab in their browser, the game state will not change.
+The assets will still load, but they'll be greeted with the 'ready' text.  Then once they refocus the game, it will
+change the state to the game menu.
+
+There's also a timer for 5 seconds, so even if it is fully loaded there's an additional 5 seconds for the user to
+see the really awesome splash screen you just made.  However, free to adjust the timer, or remove it altogether
+if you think it is too much... ;)
 
 
 We also want to enqueue the other states of our game like so:
@@ -409,7 +410,7 @@ You can play music with phaser's music loader pretty easy, like so:
     music.play();
 ```
 
-But actually the music will keep playing between states, so it might be better to declare the `music` variable
+But actually the music will keep playing between states, so it would be better to declare the `music` variable
 at the top level of scope, so that way we can access it later in case we want to change it or if we have music
 options that turn it off and on.
 
@@ -499,6 +500,10 @@ Splash.prototype = {
   }
 };
 ```
+
+That's it for Chapter 1!!!  Please star this and share it with your friends.  If you have any questions you can send me a message on twitter @docodemore.
+
+I will be working on Chapter 2, which will cover the Main Menu portion next.  Stay tuned and thank you so much for reading.
 
 ### Acknowledgements:
 This system is based off of [Understanding Phaser States by Emanuele Feronato](http://www.emanueleferonato.com/2014/08/28/phaser-tutorial-understanding-phaser-states/) and also some other tutorials I've used in the past that were actually for different game engines.  The purpose is to have a re-usable game menu system.
