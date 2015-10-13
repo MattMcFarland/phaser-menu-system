@@ -424,7 +424,7 @@ So here's what I did:
 2. Made sure to load it into the game!
 3. Copy/Pasted pollyfills from Mozillas website for `.forEach` and `Object.assign`
 
-You can simply use [lib/polyfill.js](./lib/polyfill.js)
+You can simply use [lib/polyfill.js](./game/lib/polyfill.js)
 
 ### Part 7 - Wrap up
 
