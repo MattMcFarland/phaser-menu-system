@@ -536,6 +536,7 @@ That's it for Chapter 1!!!  Please star this and share it with your friends.  If
 Read on to [Chapter 2 - The Game Menu](./chapter2.md)
 
 ### Acknowledgements:
+If you like this tutorial please STAR it and share it with your friends!
 This system is based off of [Understanding Phaser States by Emanuele Feronato](http://www.emanueleferonato.com/2014/08/28/phaser-tutorial-understanding-phaser-states/) and also some other tutorials I've used in the past that were actually for different game engines.  The purpose is to have a re-usable game menu system.
 
 Emanuele brings up some great details about state management that I will not re-iterate.

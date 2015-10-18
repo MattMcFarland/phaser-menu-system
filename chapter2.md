@@ -1,3 +1,5 @@
+Continued from [Chapter 1](./readme.md)
+
 ## Chapter 2 - The Main Menu
 
 Hi and welcome back to the State Management Tutorial.  In the last chapter we learned how to create a cool splash
@@ -529,8 +531,7 @@ GameMenu.prototype = {
 };
 ```
 
-In the next chapter, we will wire in the options screen, stay tuned.  If you like this tutorial please STAR it and share it
-with your friends! Also be sure to contact me with any questions at @docodemore on twitter.  If you have any suggestions
-please let me know as well.
+Continue on to Read on to [Chapter 3 - The Options Menu](./chapter3.md)
+If you like this tutorial please STAR it and share it with your friends!
 
 Thanks!!

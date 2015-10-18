@@ -1,3 +1,5 @@
+Continued from [Chapter 2 - The Game Menu](./chapter2.md)
+
 ## Chapter 3 - Options Menu
 
 Hi, and welcome back to the State Management Tutorial.  In the last chapter, we went over wiring up the Main Menu,
@@ -442,6 +444,7 @@ so its create function looks like this:
 Ok so we covered a lot of ground here:
 
 - created the the options menu
+- learn to modify music player settings (volume play state)
 - modified our game option menu factory to work across states!
 - increated reusability for our style library.
 - learned more about Object.assign, Object.create
