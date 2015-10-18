@@ -1,18 +1,11 @@
 var GameMenu = function() {};
 
+
 GameMenu.prototype = {
 
-  addMenuOption: function(text, callback) {
-    var txt = game.add.text(30, (this.optionCount * 80) + 200, text, style.navitem.default);
-    txt.inputEnabled = true;
-    txt.events.onInputUp.add(callback);
-    txt.events.onInputOver.add(function (target) {
-      target.setStyle(style.navitem.hover);
-    });
-    txt.events.onInputOut.add(function (target) {
-      target.setStyle(style.navitem.default);
-    });
-    this.optionCount ++;
+  menuConfig: {
+    startY: 260,
+    startX: 30
   },
 
   init: function () {
@@ -47,6 +40,7 @@ GameMenu.prototype = {
     this.addMenuOption('Credits', function () {
       game.state.start("Credits");
     });
-
   }
 };
+
+Phaser.Utils.mixinPrototype(GameMenu.prototype, mixins);

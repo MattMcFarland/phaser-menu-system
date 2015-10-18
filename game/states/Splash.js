@@ -1,12 +1,10 @@
-var Splash = function () {},
-    playSound = true,
-    playMusic = true,
-    music;
+var Splash = function () {};
 
 Splash.prototype = {
 
   loadScripts: function () {
     game.load.script('style', 'lib/style.js');
+    game.load.script('mixins', 'lib/mixins.js');
     game.load.script('WebFont', 'vendor/webfontloader.js');
     game.load.script('gamemenu','states/GameMenu.js');
     game.load.script('game', 'states/Game.js');
