@@ -1,3 +1,5 @@
+<span class="badge-paypal"><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=SQ5ECKVX4VU4C" title="Donate to this project using Paypal"><img src="https://img.shields.io/badge/paypal-donate-yellow.svg" alt="PayPal donate button" /></a></span>
+
 # Tutorial: Phaser.io Splash Screen, Main Menu, and more with State Management
 
 This aims to be an exhaustive tutorial and example/boilerplate with hopes of teaching others the usage of phaser's state management system, including:
