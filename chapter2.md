@@ -293,7 +293,7 @@ First I tried this:
         stroke: 'rgba(0,0,0,0)'
         font: '30pt TheMinion',
         align: 'left',
-        srokeThickness: 4
+        strokeThickness: 4
       },
       hover: {
         fill: highlightColor,
@@ -371,7 +371,7 @@ var style;
       base: {
         font: '30pt TheMinion',
         align: 'left',
-        srokeThickness: 4
+        strokeThickness: 4
       },
       default: {
         fill: defaultColor,
