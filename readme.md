@@ -61,7 +61,7 @@ The [index.html](./game/index.html)
 ```
 
 The benefit is that we can actually have the engine start up much sooner.  This way, the users don't have to wait
-so long before before being greeted with the splash screen.  I don't know about you, but I have personally
+so long before being greeted with the splash screen.  I don't know about you, but I have personally
 closed my browser before fully loading a game simply because I saw a blank screen.  So let's try to shorten that as
 much as possible to improve our user experience.
 
